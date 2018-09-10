@@ -2,6 +2,8 @@
 <script src="js/raphael.2.1.0.min.js"></script>
 <script src="js/justgage.1.0.1.min.js"></script>
 
+<script src="https://netpie.io/microgear.js"></script>
+
 <style>
 	body {
 		text-align: center;
