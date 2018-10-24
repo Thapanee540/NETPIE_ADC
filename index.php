@@ -1,10 +1,10 @@
 <!-- <script src="js/microgear.js"></script> -->
 
-<script src="microgear-html5/build/microgear.js"></script>
+<script src="/microgear-html5/build/microgear.js"></script>
 
 
-<script src="js/raphael.2.1.0.min.js"></script>
-<script src="js/justgage.1.0.1.min.js"></script>
+<script src="/js/raphael.2.1.0.min.js"></script>
+<script src="/js/justgage.1.0.1.min.js"></script>
 
 <!-- <script src="https://netpie.io/microgear.js"></script> -->
 <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
@@ -64,8 +64,9 @@ include("tab.php");
 </script>
 
 <script>
-	const APPKEY = "q55tF6O03UfRliO";
-	const APPSECRET = "B695zEICEtOcKNoFGRegLg9j9";
+
+	const APPKEY = "j0s3B45DXBAIQ7r";
+	const APPSECRET = "PHwc9rjEQ8IlwtOa77dyj1XMJ";
 	const APPID = "TestKit";
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
