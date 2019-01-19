@@ -63,8 +63,8 @@ include("tab.php");
 
 <script>
 
-	const APPKEY = "j0s3B45DXBAIQ7r";
-	const APPSECRET = "PHwc9rjEQ8IlwtOa77dyj1XMJ";
+	const APPKEY = "wTL2JYV4HoycVCO";
+	const APPSECRET = "VCpfosyg9wPekYKEkCAioHV2N";
 	const APPID = "TestKit";
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
