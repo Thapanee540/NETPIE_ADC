@@ -67,7 +67,7 @@ include("tab.php");
 	const APPSECRET = "VCpfosyg9wPekYKEkCAioHV2N";
 	const APPID = "TestKit";
 
-	const ALIAS = "Bio1";         //  ชื่อตัวเอง
+	const ALIAS = "Bio1_Web";         //  ชื่อตัวเอง
 
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
