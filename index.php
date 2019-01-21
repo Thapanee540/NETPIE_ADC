@@ -66,10 +66,15 @@ include("tab.php");
 	const APPKEY = "wTL2JYV4HoycVCO";
 	const APPSECRET = "VCpfosyg9wPekYKEkCAioHV2N";
 	const APPID = "TestKit";
+
+	const ALIAS = "Bio1";         //  ชื่อตัวเอง
+
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
-		gearsecret: APPSECRET
+		gearsecret: APPSECRET,
+		gearalias: ALIAS
 	});
+
 	var timestamp=0;
 	microgear.on('message',function(topic,msg) {
 		var split_msg = msg.split(",");
