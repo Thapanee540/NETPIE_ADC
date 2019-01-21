@@ -89,6 +89,7 @@ include("tab.php");
 		}
 	});
 	microgear.on('connected', function() {
+		microgear.setAlias(ALIAS);
 		microgear.setname('webapp');
 		// document.getElementById("data").innerHTML = '<p><img src="img/bot2.png" id="tesr" style="width:20% ; height:auto ;" onclick="location.reload()"></p>';
 	});
